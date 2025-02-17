@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fentanilo y Drogas</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -12,88 +13,73 @@
     </header>
 
     <div class="container">
-        <section class="contenido">
-            <h2>¿Qué es el Fentanilo?</h2>
-            <p>
-                El fentanilo es un opioide sintético que es hasta 50 veces más potente que la heroína y 100 veces más fuerte que la morfina. 
-                Se usa médicamente para tratar el dolor intenso, pero su abuso ha llevado a una crisis de sobredosis a nivel mundial.
-            </p>
-
-            <h2>1. Tipos de Drogas</h2>
-            <p>
-                Existen diferentes tipos de drogas, incluyendo:
-                <ul>
-                    <li><strong>Opioides:</strong> Fentanilo, morfina, heroína.</li>
-                    <li><strong>Estimulantes:</strong> Cocaína, metanfetaminas.</li>
-                    <li><strong>Depresores:</strong> Alcohol, benzodiacepinas.</li>
-                    <li><strong>Alucinógenos:</strong> LSD, ketamina.</li>
-                </ul>
-            </p>
-
-            <h2>2. Efectos del Fentanilo</h2>
-            <p>
-                Los efectos incluyen euforia, somnolencia, náuseas y, en dosis altas, puede causar una depresión respiratoria fatal.
-            </p>
-
-            <h2>3. Riesgos y Sobredosis</h2>
-            <p>
-                La principal causa de muerte por el fentanilo es la sobredosis, que puede ocurrir con dosis muy pequeñas. Se necesita 
-                solo una cantidad mínima para provocar una insuficiencia respiratoria.
-            </p>
-
-            <h2>4. Cómo Identificar el Fentanilo</h2>
-            <p>
-                El fentanilo puede presentarse en polvo, pastillas o mezclado con otras drogas sin que los consumidores lo sepan.
-            </p>
-
-            <h2>5. Prevención del Consumo</h2>
-            <p>
-                La educación y campañas de concienciación son clave para prevenir el abuso de drogas.
-            </p>
-
-            <h2>6. Tratamientos para la Adicción</h2>
-            <p>
-                Existen tratamientos como la terapia con metadona, buprenorfina y la naloxona, que revierte los efectos de la sobredosis.
-            </p>
-
-            <h2>7. Impacto Social</h2>
-            <p>
-                La crisis del fentanilo ha afectado a comunidades enteras, incrementando la tasa de muertes por sobredosis y el crimen relacionado con el narcotráfico.
-            </p>
-
-            <h2>8. Legalidad y Regulaciones</h2>
-            <p>
-                En muchos países, el fentanilo está estrictamente regulado, pero el tráfico ilegal sigue en aumento.
-            </p>
-
-            <h2>9. Recursos y Ayuda</h2>
-            <p>
-                Si necesitas ayuda, puedes comunicarte con líneas de emergencia o centros de rehabilitación.
-            </p>
-
-            <h2>10. Contactos y Enlaces Útiles</h2>
-            <p>
-                - Organización Mundial de la Salud (OMS)  
-                - Línea de Ayuda Nacional  
-                - Centros de Tratamiento de Adicciones  
-            </p>
-        </section>
-
         <nav class="menu">
             <h2>Menú</h2>
             <ul>
-                <li><a href="#que-es">1. Tipos de Drogas</a></li>
-                <li><a href="#efectos">2. Efectos del Fentanilo</a></li>
-                <li><a href="#riesgos">3. Riesgos y Sobredosis</a></li>
-                <li><a href="#identificar">4. Cómo Identificar el Fentanilo</a></li>
-                <li><a href="#prevencion">5. Prevención del Consumo</a></li>
-                <li><a href="#tratamiento">6. Tratamientos para la Adicción</a></li>
-                <li><a href="#impacto">7. Impacto Social</a></li>
-                <li><a href="#legalidad">8. Legalidad y Regulaciones</a></li>
-                <li><a href="#recursos">9. Recursos y Ayuda</a></li>
-                <li><a href="#contactos">10. Contactos y Enlaces</a></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(1)">1. Tipos de Drogas</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(2)">2. Efectos del Fentanilo</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(3)">3. Riesgos y Sobredosis</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(4)">4. Cómo Identificar el Fentanilo</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(5)">5. Prevención del Consumo</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(6)">6. Tratamientos para la Adicción</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(7)">7. Impacto Social</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(8)">8. Legalidad y Regulaciones</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(9)">9. Recursos y Ayuda</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(10)">10. Contactos y Enlaces</button></li>
             </ul>
         </nav>
+
+        <section class="contenido">
+            <div id="seccion1" class="seccion">
+                <h2>1. Tipos de Drogas</h2>
+                <p>Existen diferentes tipos de drogas, incluyendo opioides, estimulantes, depresores y alucinógenos.</p>
+            </div>
+
+            <div id="seccion2" class="seccion">
+                <h2>2. Efectos del Fentanilo</h2>
+                <p>Puede causar euforia, somnolencia, náuseas y depresión respiratoria mortal.</p>
+            </div>
+
+            <div id="seccion3" class="seccion">
+                <h2>3. Riesgos y Sobredosis</h2>
+                <p>El fentanilo es extremadamente potente, y pequeñas dosis pueden causar la muerte.</p>
+            </div>
+
+            <div id="seccion4" class="seccion">
+                <h2>4. Cómo Identificar el Fentanilo</h2>
+                <p>Puede encontrarse en polvo, pastillas o mezclado con otras drogas sin que los consumidores lo sepan.</p>
+            </div>
+
+            <div id="seccion5" class="seccion">
+                <h2>5. Prevención del Consumo</h2>
+                <p>La educación y campañas de concienciación ayudan a prevenir el abuso de drogas.</p>
+            </div>
+
+            <div id="seccion6" class="seccion">
+                <h2>6. Tratamientos para la Adicción</h2>
+                <p>Se usan medicamentos como metadona, buprenorfina y naloxona para tratar la adicción.</p>
+            </div>
+
+            <div id="seccion7" class="seccion">
+                <h2>7. Impacto Social</h2>
+                <p>La crisis del fentanilo ha causado miles de muertes y ha afectado a muchas comunidades.</p>
+            </div>
+
+            <div id="seccion8" class="seccion">
+                <h2>8. Legalidad y Regulaciones</h2>
+                <p>En muchos países, el fentanilo es altamente regulado, pero el tráfico ilegal sigue en aumento.</p>
+            </div>
+
+            <div id="seccion9" class="seccion">
+                <h2>9. Recursos y Ayuda</h2>
+                <p>Si necesitas ayuda, contacta líneas de emergencia o centros de rehabilitación.</p>
+            </div>
+
+            <div id="seccion10" class="seccion">
+                <h2>10. Contactos y Enlaces</h2>
+                <p>Organización Mundial de la Salud (OMS), Línea de Ayuda Nacional, Centros de Tratamiento de Adicciones.</p>
+            </div>
+        </section>
     </div>
 
     <footer>
