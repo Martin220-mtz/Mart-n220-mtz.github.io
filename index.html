@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fentanilo y sus efectos</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -14,39 +15,28 @@
         <aside class="menu">
             <h2>Menú</h2>
             <ul>
-                <li><a href="#">Tema 1</a></li>
-                <li><a href="#">Tema 2</a></li>
-                <li><a href="#">Tema 3</a></li>
-                <li><a href="#">Tema 4</a></li>
-                <li><a href="#">Tema 5</a></li>
-                <li><a href="#">Tema 6</a></li>
-                <li><a href="#">Tema 7</a></li>
-                <li><a href="#">Tema 8</a></li>
-                <li><a href="#">Tema 9</a></li>
-                <li><a href="#">Tema 10</a></li>
+                <li><button onclick="mostrarContenido(1)">Tema 1</button></li>
+                <li><button onclick="mostrarContenido(2)">Tema 2</button></li>
+                <li><button onclick="mostrarContenido(3)">Tema 3</button></li>
+                <li><button onclick="mostrarContenido(4)">Tema 4</button></li>
+                <li><button onclick="mostrarContenido(5)">Tema 5</button></li>
+                <li><button onclick="mostrarContenido(6)">Tema 6</button></li>
+                <li><button onclick="mostrarContenido(7)">Tema 7</button></li>
+                <li><button onclick="mostrarContenido(8)">Tema 8</button></li>
+                <li><button onclick="mostrarContenido(9)">Tema 9</button></li>
+                <li><button onclick="mostrarContenido(10)">Tema 10</button></li>
             </ul>
         </aside>
         <section class="content">
-            <h2>¿Qué es el fentanilo?</h2>
-            <p>
-                El fentanilo es un opioide sintético extremadamente potente, entre 50 y 100 veces más fuerte que la morfina. 
-                Se usa médicamente para tratar el dolor intenso, pero su uso ilegal ha provocado una crisis de salud pública.
-            </p>
-            <p>
-                Los efectos del fentanilo incluyen euforia, sedación y depresión respiratoria, lo que puede llevar a sobredosis fatales. 
-                Se encuentra en forma de polvo, píldoras y se mezcla con otras drogas sin que los usuarios lo sepan, aumentando su peligrosidad.
-            </p>
-            <h3>Imágenes del Fentanilo</h3>
-            <div class="gallery">
-                <img src="img/img1.jpg" alt="Fentanilo en píldoras">
-                <img src="img/img2.jpg" alt="Laboratorio ilegal">
-                <img src="img/img3.jpg" alt="Efectos del fentanilo">
+            <div id="contenido">
+                <h2>Bienvenido</h2>
+                <p>Selecciona un tema del menú para obtener más información sobre el fentanilo.</p>
+                <h3>Video informativo</h3>
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
             </div>
-            <h3>Video informativo</h3>
-            <video controls>
-                <source src="video.mp4" type="video/mp4">
-                Tu navegador no soporta el video.
-            </video>
         </section>
     </main>
     <footer>
