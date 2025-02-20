@@ -3,44 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
+    <title>Las drogas y sus efectos</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Proyecto Final: Fentanilo y Drogas</h1>
+        <h1>Fentanilo y Drogas</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Tema 1</a></li>
-            <li><a href="#">Tema 2</a></li>
-            <li><a href="#">Tema 3</a></li>
-            <li><a href="#">Tema 4</a></li>
-            <li><a href="#">Tema 5</a></li>
-            <li><a href="#">Tema 6</a></li>
-            <li><a href="#">Tema 7</a></li>
-            <li><a href="#">Tema 8</a></li>
-            <li><a href="#">Tema 9</a></li>
-            <li><a href="#">Tema 10</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Información</h2>
-        <p>Contenido sobre el fentanilo y otras drogas.</p>
-        <table>
-            <tr><th>Droga</th><th>Efectos</th></tr>
-            <tr><td>Fentanilo</td><td>Alta potencia y riesgo de sobredosis</td></tr>
-            <tr><td>Cocaína</td><td>Estimulación del sistema nervioso</td></tr>
-        </table>
-        <h3>Video Relacionado</h3>
-        <video controls>
-            <source src="media/video.mp4" type="video/mp4">
-            Tu navegador no soporta video.
-        </video>
-    </section>
+
+    <div class="container">
+        <nav class="menu">
+            <h2>Menú</h2>
+            <ul>
+                <li><button class="menu-btn" onclick="mostrarSeccion(1)">1. Tipos de Drogas</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(2)">2. Efectos del Fentanilo</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(3)">3. Riesgos y Sobredosis</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(4)">4. Cómo Identificar el Fentanilo</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(5)">5. Prevención del Consumo</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(6)">6. Tratamientos para la Adicción</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(7)">7. Impacto Social</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(8)">8. Legalidad y Regulaciones</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(9)">9. Recursos y Ayuda</button></li>
+                <li><button class="menu-btn" onclick="mostrarSeccion(10)">10. Contactos y Enlaces</button></li>
+            </ul>
+        </nav>
+
+        <section class="contenido">
+            <div id="seccion1" class="seccion">
+                <h2>1. Tipos de Drogas</h2>
+                <p>Las drogas se pueden clasificar en varias categorías:</p>
+                <ul>
+                    <li><strong>Opioides:</strong> Fentanilo, heroína, morfina, oxicodona. Se usan para el dolor, pero pueden ser altamente adictivos.</li>
+                    <li><strong>Estimulantes:</strong> Cocaína, metanfetaminas, MDMA. Aceleran el sistema nervioso y pueden causar ataques cardíacos.</li>
+                    <li><strong>Depresores:</strong> Alcohol, benzodiacepinas. Reducen la actividad cerebral y pueden causar sedación extrema.</li>
+                    <li><strong>Alucinógenos:</strong> LSD, ketamina, hongos. Alteran la percepción de la realidad.</li>
+                </ul>
+            </div>
+
+            <div id="seccion2" class="seccion">
+                <h2>2. Efectos del Fentanilo</h2>
+                <p>El fentanilo es extremadamente potente y puede causar:</p>
+                <ul>
+                    <li>Euforia intensa</li>
+                    <li>Somnolencia extrema</li>
+                    <li>Náuseas y vómitos</li>
+                    <li>Pérdida de la conciencia</li>
+                    <li>Depresión respiratoria severa (puede llevar a la muerte)</li>
+                </ul>
+                <p>En dosis incorrectas, el fentanilo puede ser letal en cuestión de minutos.</p>
+            </div>
+
+            <div id="seccion3" class="seccion">
+                <h2>3. Riesgos y Sobredosis</h2>
+                <p>El fentanilo es responsable de miles de muertes por sobredosis cada año. Algunos de los riesgos incluyen:</p>
+                <ul>
+                    <li>Alta potencia: Solo 2 mg pueden ser mortales.</li>
+                    <li>Riesgo de mezcla: A menudo se mezcla con heroína y cocaína sin que el consumidor lo sepa.</li>
+                    <li>Síntomas de sobredosis: Dificultad para respirar, piel azulada, pérdida del conocimiento.</li>
+                </ul>
+                <p>La naloxona es un medicamento que puede revertir una sobredosis de fentanilo.</p>
+            </div>
+
+            <div id="seccion4" class="seccion">
+                <h2>4. Cómo Identificar el Fentanilo</h2>
+                <p>El fentanilo puede presentarse como:</p>
+                <ul>
+                    <li>Polvo blanco o de color</li>
+                    <li>Pastillas falsificadas que imitan analgésicos recetados</li>
+                    <li>Mezclado con otras drogas sin el conocimiento del usuario</li>
+                </ul>
+            </div>
+
+            <div id="seccion5" class="seccion">
+                <h2>5. Prevención del Consumo</h2>
+                <p>Algunas formas de prevención incluyen:</p>
+                <ul>
+                    <li>Educación sobre los efectos de las drogas</li>
+                    <li>Programas de rehabilitación y apoyo comunitario</li>
+                    <li>Uso de tiras reactivas para detectar fentanilo en drogas</li>
+                </ul>
+            </div>
+
+            <div id="seccion6" class="seccion">
+                <h2>6. Tratamientos para la Adicción</h2>
+                <p>Los tratamientos incluyen:</p>
+                <ul>
+                    <li>Médicos: Metadona y buprenorfina para reducir la adicción.</li>
+                    <li>Psicológicos: Terapia cognitivo-conductual.</li>
+                    <li>Apoyo social: Grupos de ayuda como Narcóticos Anónimos.</li>
+                </ul>
+            </div>
+
+            <div id="seccion7" class="seccion">
+                <h2>7. Impacto Social</h2>
+                <p>El fentanilo ha causado:</p>
+                <ul>
+                    <li>Aumento de muertes por sobredosis</li>
+                    <li>Impacto en familias y comunidades</li>
+                    <li>Costos elevados en atención médica y servicios de emergencia</li>
+                </ul>
+            </div>
+
+            <div id="seccion8" class="seccion">
+                <h2>8. Legalidad y Regulaciones</h2>
+                <p>El fentanilo está regulado en la mayoría de los países, pero el tráfico ilegal sigue creciendo. Existen estrictas leyes contra su distribución.</p>
+            </div>
+
+            <div id="seccion9" class="seccion">
+                <h2>9. Recursos y Ayuda</h2>
+                <p>Si necesitas ayuda, contacta con:</p>
+                <ul>
+                    <li>Centros de rehabilitación</li>
+                    <li>Líneas de emergencia para adicciones</li>
+                    <li>Organizaciones gubernamentales de salud</li>
+                </ul>
+            </div>
+
+            <div id="seccion10" class="seccion">
+                <h2>10. Contactos y Enlaces</h2>
+                <p>Recursos útiles para más información sobre el fentanilo y las drogas:</p>
+                <ul>
+                    <li>Organización Mundial de la Salud (OMS)</li>
+                    <li>Centros de Control y Prevención de Enfermedades (CDC)</li>
+                    <li>Instituto Nacional sobre el Abuso de Drogas (NIDA)</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
     <footer>
-        <p>© 2025 Proyecto Final</p>
+        <p>Angel Manuel Martinez Cruz | Grupo: 6203</p>
     </footer>
 </body>
 </html>
