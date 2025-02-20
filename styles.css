@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Blanco Humo */
-    color: #2C3E50; /* Azul Marino Oscuro */
+    background-color: #F5F5F5; /* Gris claro */
+    color: #2C3E50; /* Negro carbón */
 }
 
 /* Encabezado */
 header {
-    background: #2C3E50; /* Azul Marino Oscuro */
+    background: #2C3E50; /* Negro carbón */
     color: #FFFFFF; /* Blanco */
     text-align: center;
     padding: 20px;
@@ -26,21 +26,21 @@ header {
 /* Menú lateral */
 .menu {
     width: 25%;
-    background: #34495E; /* Gris Pizarra */
+    background: #34495E; /* Gris pizarra oscuro */
     padding: 20px;
     color: #FFFFFF; /* Blanco */
 }
 
 .menu h2 {
     text-align: center;
-    color: #16A085; /* Verde Azulado Oscuro */
+    color: #C0392B; /* Rojo escarlata */
 }
 
 /* Botones del menú */
 .menu-btn {
     width: 100%;
     padding: 12px;
-    background: #16A085; /* Verde Azulado Oscuro */
+    background: #C0392B; /* Rojo escarlata */
     color: #FFFFFF; /* Blanco */
     border: none;
     cursor: pointer;
@@ -51,7 +51,7 @@ header {
 }
 
 .menu-btn:hover {
-    background: #1ABC9C; /* Verde Azulado Claro */
+    background: #E74C3C; /* Rojo más claro */
 }
 
 /* Sección de contenido */
@@ -59,7 +59,7 @@ header {
     width: 75%;
     padding: 20px;
     background: #FFFFFF; /* Blanco */
-    color: #2C3E50; /* Azul Marino Oscuro */
+    color: #2C3E50; /* Negro carbón */
 }
 
 /* Secciones de información */
@@ -86,7 +86,7 @@ header {
 
 /* Pie de página */
 footer {
-    background: #2C3E50; /* Azul Marino Oscuro */
+    background: #2C3E50; /* Negro carbón */
     color: #FFFFFF; /* Blanco */
     text-align: center;
     padding: 10px;
