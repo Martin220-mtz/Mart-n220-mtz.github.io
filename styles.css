@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a237e; /* Azul oscuro */
-    color: #ffffff; /* Texto blanco */
+    background-color: #6F4E37; /* Mocha Mousse */
+    color: #2C3E50; /* Negro */
 }
 
 /* Encabezado */
 header {
-    background: #0d47a1; /* Azul más fuerte */
+    background: #2C3E50; /* Azul Marino Oscuro */
     color: white;
     text-align: center;
     padding: 20px;
@@ -26,21 +26,21 @@ header {
 /* Menú lateral */
 .menu {
     width: 25%;
-    background: #212121; /* Gris oscuro */
+    background: #34495E; /* Gris Pizarra */
     padding: 20px;
     color: white;
 }
 
 .menu h2 {
     text-align: center;
-    color: #bbdefb; /* Azul claro */
+    color: #16A085; /* Verde Azulado Oscuro */
 }
 
 /* Botones del menú */
 .menu-btn {
     width: 100%;
     padding: 12px;
-    background: #3949ab; /* Azul */
+    background: #16A085; /* Verde Azulado Oscuro */
     color: white;
     border: none;
     cursor: pointer;
@@ -51,15 +51,15 @@ header {
 }
 
 .menu-btn:hover {
-    background: #5c6bc0; /* Azul más claro */
+    background: #1ABC9C; /* Verde Azulado Claro */
 }
 
 /* Sección de contenido */
 .contenido {
     width: 75%;
     padding: 20px;
-    background: #eeeeee; /* Fondo gris claro */
-    color: black;
+    background: #F5F5F5; /* Blanco Humo */
+    color: #2C3E50; /* Negro */
 }
 
 /* Secciones de información */
@@ -86,7 +86,7 @@ header {
 
 /* Pie de página */
 footer {
-    background: #0d47a1;
+    background: #2C3E50; /* Azul Marino Oscuro */
     color: white;
     text-align: center;
     padding: 10px;
