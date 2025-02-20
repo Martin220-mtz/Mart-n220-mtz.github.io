@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #6F4E37; /* Mocha Mousse */
-    color: #2C3E50; /* Negro */
+    background-color: #F5F5F5; /* Blanco Humo */
+    color: #2C3E50; /* Azul Marino Oscuro */
 }
 
 /* Encabezado */
 header {
     background: #2C3E50; /* Azul Marino Oscuro */
-    color: white;
+    color: #FFFFFF; /* Blanco */
     text-align: center;
     padding: 20px;
     font-size: 24px;
@@ -28,7 +28,7 @@ header {
     width: 25%;
     background: #34495E; /* Gris Pizarra */
     padding: 20px;
-    color: white;
+    color: #FFFFFF; /* Blanco */
 }
 
 .menu h2 {
@@ -41,7 +41,7 @@ header {
     width: 100%;
     padding: 12px;
     background: #16A085; /* Verde Azulado Oscuro */
-    color: white;
+    color: #FFFFFF; /* Blanco */
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -58,16 +58,16 @@ header {
 .contenido {
     width: 75%;
     padding: 20px;
-    background: #F5F5F5; /* Blanco Humo */
-    color: #2C3E50; /* Negro */
+    background: #FFFFFF; /* Blanco */
+    color: #2C3E50; /* Azul Marino Oscuro */
 }
 
 /* Secciones de información */
 .seccion {
     display: none;
     padding: 15px;
-    border: 1px solid #ddd;
-    background: white;
+    border: 1px solid #DDDDDD;
+    background: #FFFFFF; /* Blanco */
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     transition: opacity 0.5s ease-in-out;
@@ -87,7 +87,7 @@ header {
 /* Pie de página */
 footer {
     background: #2C3E50; /* Azul Marino Oscuro */
-    color: white;
+    color: #FFFFFF; /* Blanco */
     text-align: center;
     padding: 10px;
     position: relative;
